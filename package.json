@@ -1,0 +1,13 @@
+{
+  "name": "berkeleypse-models",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "repository": "https://github.com/BerkeleyPSE/models.git",
+  "author": "Rahul Rangnekar <rrangnekar96@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "",
+    "start": "webpack --watch",
+    "build": "webpack"
+  }
+}
