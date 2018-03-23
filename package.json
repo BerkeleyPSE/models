@@ -1,13 +1,11 @@
 {
-  "name": "berkeleypse-models",
+  "name": "berkeleypse-schemas",
   "version": "1.0.0",
-  "main": "dist/index.js",
-  "repository": "https://github.com/BerkeleyPSE/models.git",
+  "main": "src/index.js",
+  "repository": "https://github.com/BerkeleyPSE/schemas.git",
   "author": "Rahul Rangnekar <rrangnekar96@gmail.com>",
   "license": "MIT",
-  "scripts": {
-    "test": "",
-    "start": "webpack --watch",
-    "build": "webpack"
+  "dependencies": {
+    "mongoose": "^5.0.11"
   }
 }
