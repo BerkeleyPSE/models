@@ -107,21 +107,45 @@ const BrotherSchema = new Schema({
 
   mediaUrls: {
     type: {
-      linkedin: String,
-      github: String,
-      medium: String,
-      quora: String,
-      twitter: String,
-      website: String
+      linkedin: Object,
+      github: Object,
+      medium: Object,
+      quora: Object,
+      twitter: Object,
+      website: Object
     },
     required: true,
     default: {
-      linkedin: '',
-      github: '',
-      medium: '',
-      quora: '',
-      twitter: '',
-      website: ''
+      linkedin: {
+        label: 'LinkedIn',
+        iconClass: '',
+        value: ''
+      },
+      github: {
+        label: 'GitHub',
+        iconClass: '',
+        value: ''
+      },
+      medium: {
+        label: 'LinkedIn',
+        iconClass: '',
+        value: ''
+      },
+      quora: {
+        label: 'Quora',
+        iconClass: '',
+        value: ''
+      },
+      twitter: {
+        label: 'Twitter',
+        iconClass: '',
+        value: ''
+      },
+      website: {
+        label: 'Website',
+        iconClass: '',
+        value: ''
+      }
     }
   }
 });
