@@ -118,32 +118,37 @@ const BrotherSchema = new Schema({
     default: {
       linkedin: {
         label: 'LinkedIn',
-        iconClass: '',
+        iconClass: 'fab fa-linkedin-in',
         value: ''
       },
-      github: {
-        label: 'GitHub',
-        iconClass: '',
-        value: ''
-      },
-      medium: {
-        label: 'LinkedIn',
-        iconClass: '',
-        value: ''
-      },
-      quora: {
-        label: 'Quora',
-        iconClass: '',
-        value: ''
-      },
-      twitter: {
-        label: 'Twitter',
-        iconClass: '',
-        value: ''
-      },
+
       website: {
         label: 'Website',
-        iconClass: '',
+        iconClass: 'fas fa-link',
+        value: ''
+      },
+
+      medium: {
+        label: 'Medium',
+        iconClass: 'fab fa-medium-m',
+        value: ''
+      },
+
+      twitter: {
+        label: 'Twitter',
+        iconClass: 'fab fa-twitter',
+        value: ''
+      },
+
+      quora: {
+        label: 'Quora',
+        iconClass: 'fab fa-quora',
+        value: ''
+      },
+
+      github: {
+        label: 'GitHub',
+        iconClass: 'fab fa-github',
         value: ''
       }
     }
